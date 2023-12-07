@@ -1,0 +1,51 @@
+body {
+    margin: 5% 10%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  body h1 {
+    color: #000000;
+    background-color: rgb(225,232,237);
+    text-align: center;
+  }
+
+  body > header {
+    margin-bottom: 5%;
+  }
+
+  article.show-post {
+    border: solid 2px #000;
+    margin: 5%;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  article.show-post > header {
+    padding: 0.5em 2em;
+    background-color: rgb(225,232,237);
+    text-align: center;
+  }
+  article.show-post > p {
+    background-color: rgba(0,123,255,0.25);
+    padding: 1em 2em;
+    text-align: center;
+  }
+
+  article.show-post > img {
+    background-color: rgba(0,123,255,0.25);
+    padding: 1em 2em;
+  }
+
+  .btn {
+    background-color: rgba(225,232,237);
+    color: #000000;
+    padding: 1em 2em;
+  }
+  .activated-heart {
+    color: red;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
